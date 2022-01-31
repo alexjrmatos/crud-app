@@ -1,1 +1,1 @@
-# crud-app
+# CRUD App with Express and MongoDB (using Mongoose)
