@@ -10,8 +10,8 @@ router.get("/", async (req, res) => {
     }
 });
 
-router.get("/id", async (req, res) => {
-    const id = req.query.id;
+router.get("/:id", async (req, res) => {
+    const id = req.params.id;
 
     try {
         const personById = await Person.findById(id);
